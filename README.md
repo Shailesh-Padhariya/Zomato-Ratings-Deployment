@@ -41,6 +41,30 @@ Extra Trees Regressor: Employed to improve model accuracy. best R2 score achieve
 
 After R² scores were computed to evaluate each model conclusion was made that Extra Tree Regressor will be used for creating the Pickle File
 
+How to use the Deployment file
+
+1- Download all the files from the project 
+2- keep all the files in the same directory
+3- if any further tweaking is required by the end user they can download the large dataet from google drive link given in readdme
+4- Run Model.py file in an ide
+5- Run app.py , open the link given in the terminal 
+6- Enter the values and click predict
+
+File Descriptions:
+Model.py:
+This file contains the code for building the model that is used in predicting the restaurant ratings
+end user can run ipynb file and create a new pickle file and make changes to model.py.
+
+csv file:
+This contains our data that wws cleaned and saved (contains encoded/numerical data) after data engineering
+
+template file:
+The template file contains the html and css documents used in building the web app
+
+App.py:
+This contains the Flask API’s that receives restaurant details via a GUI/API calls, then make the prediction of restaurant ratings based on the model and returns the rate
+
+
 
 
 
