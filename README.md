@@ -6,8 +6,8 @@ Project Overview:
 This project predicts restaurant ratings based on various factors such as online orders, table bookings, restaurant type, location, and cuisine. Machine learning models were trained and deployed using Flask to provide real-time predictions.
 
 Datasets:
-1- https://drive.google.com/file/d/1bmghmXygKsQNNYl_FR0CcdCeIGP2wagn/view?usp=drive_link (orignal zomato.csv file)
-2- https://drive.google.com/file/d/1JZJfugs09VDbMuiMZ3on7W2MO55SbR6U/view?usp=drive_link (pickle file containing the extra-tree regressor Model)
+1- https://drive.google.com/file/d/1Nn3IBXpaWEeVKHHfz85F29pEHFTvZEdJ/view?usp=sharing (orignal zomato.csv file)
+2- https://drive.google.com/file/d/19Qz_S1YYqncI1107kROc2O5gCG3_SAAP/view?usp=sharing : (pickle file containing the extra-tree regressor Model)
 
 Exploratory Data Analysis (EDA)
 Dataset Overview: The dataset was checked for null values, duplicates, and data types.
